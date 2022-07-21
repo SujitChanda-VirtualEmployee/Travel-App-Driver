@@ -1,0 +1,81 @@
+name: travel_app_driver
+description: A new Flutter project.
+
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.3 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+
+  get: ^4.6.5
+  provider: ^6.0.3
+  intl: ^0.17.0
+  font_awesome_flutter: ^10.1.0
+  google_maps_flutter: ^2.1.8
+  geolocator: ^9.0.0
+  flutter_polyline_points: ^1.0.0
+  flutter_local_notifications: ^9.6.1
+  pinput: ^2.2.11
+  sms_autofill: ^2.2.0
+  geocoding: ^2.0.4
+  shared_preferences: ^2.0.15
+  url_launcher: ^6.1.4
+  syncfusion_flutter_datepicker: ^20.2.36
+  flutter_easyloading: ^3.0.5
+  flutter_spinkit: ^5.1.0
+  cached_network_image: ^3.2.1
+  flutter_rating_bar: ^4.0.1
+  permission_handler: ^10.0.0
+  image_picker: ^0.8.5+3
+  image_cropper: ^2.0.3
+  fluttertoast: ^8.0.9
+  flutter_svg: ^1.1.1+1
+  awesome_snackbar_content: ^0.0.5
+  sliding_up_panel: ^2.0.0+1
+  calendar_timeline: ^1.0.5
+  photo_view: ^0.14.0
+  onboarding_overlay: ^3.1.0
+  share_plus: ^4.0.10
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+
+  uses-material-design: true
+
+
+
+  assets:
+    - images/
+    - images/2x/
+    - images/3x/
+
+
+  fonts: 
+    - family: RobotoCondensed
+      fonts:
+        - asset: fonts/RobotoCondensed-Regular.ttf  
+
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf     
+
+
